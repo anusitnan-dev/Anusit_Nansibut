@@ -4,9 +4,9 @@ import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
 // 🌐 เปลี่ยนเป็น URL ของ Render 
-//const API_BASE_URL = 'https://uninoti.onrender.com';
+//const API_BASE_URL = 'you render';
 //เวอร์ชัน Local IP (เปิดไว้สำหรับการนำเสนอสดผ่าน Expo)
-const API_BASE_URL = 'http:/10.75.248.236:3000';
+const API_BASE_URL = '*********';
 
 // ตั้งค่าให้แสดง แจ้งเตือน/มีเสียง แม้ผู้ใช้เปิดแอปอยู่
 Notifications.setNotificationHandler({
