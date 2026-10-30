@@ -27,11 +27,11 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 const db = mysql.createPool({
-  host: process.env.DB_HOST || 'gateway01.ap-southeast-1.prod.aws.tidbcloud.com', 
+  host: process.env.DB_HOST, 
   port: process.env.DB_PORT || 4000,                                             
-  user: process.env.DB_USER || 'BJGnErUr2BJSKDf.root',                       
-  password: process.env.DB_PASSWORD || 'MooR2wlhLmTkOC1k',                   
-  database: process.env.DB_NAME || 'test',                                      
+  user: process.env.DB_USER,                       
+  password: process.env.DB_PASSWORD,                   
+  database: process.env.DB_NAME || 'test',                                     
   dateStrings: true, 
   timezone: '+07:00',
   waitForConnections: true,
