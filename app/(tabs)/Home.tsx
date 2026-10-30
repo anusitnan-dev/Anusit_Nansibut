@@ -11,9 +11,9 @@ import { auth } from '../../firebaseConfig';
 import { signOut } from 'firebase/auth';
 import * as Notifications from 'expo-notifications';
 //เวอร์ชัน Render (เปิดไว้ตอนเอาไปอธิบายโครงสร้างระบบ / บิลด์ APK)
-//const API_BASE_URL = 'https://uninoti.onrender.com';
+//const API_BASE_URL = 'you render';
 //เวอร์ชัน Local IP (เปิดไว้สำหรับการนำเสนอสดผ่าน Expo)
-const API_BASE_URL = 'http:/10.75.248.236:3000';
+const API_BASE_URL = 'http:/*********:3000';
 
 const REMINDER_OPTIONS = [
   { label: 'ไม่แจ้งเตือน', value: null }, { label: 'เมื่อถึงเวลากิจกรรม', value: 0 }, { label: 'ล่วงหน้า 15 นาที', value: 15 },
