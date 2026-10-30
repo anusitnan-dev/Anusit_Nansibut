@@ -3,13 +3,13 @@ import { initializeAuth, getReactNativePersistence, getAuth } from 'firebase/aut
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdF9ZAs8IdCqgU5maKstrrV-WXtzpDvnw",
-  authDomain: "alertprojact.firebaseapp.com",
-  projectId: "alertprojact",
-  storageBucket: "alertprojact.firebasestorage.app",
-  messagingSenderId: "519581262322",
-  appId: "1:519581262322:web:58966eea21dfb024540b6b",
-  measurementId: "G-N3LZQNBWCM"
+  apiKey: "YOUR_API_KEY_HERE",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "1234567890",
+  appId: "1:1234567890:web:1234567890",
+  measurementId: "G-XXXXXXXXXX"
 };
 
 // ป้องกันการ Initialize ซ้ำตอน Reload โค้ด
