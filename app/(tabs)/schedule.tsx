@@ -12,7 +12,7 @@ import { signOut } from 'firebase/auth';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 
 // เวอร์ชัน Local IP (เปิดไว้สำหรับการนำเสนอสดผ่าน Expo)
-const API_BASE_URL = 'http://10.75.248.236:3000';
+const API_BASE_URL = '*********';
 
 LocaleConfig.locales['th'] = {
   monthNames: ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'],
