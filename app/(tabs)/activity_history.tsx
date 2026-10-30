@@ -5,9 +5,9 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 // อัปเดต API_BASE_URL ให้ชี้ไปที่ Render Server
-//const API_BASE_URL = 'https://uninoti.onrender.com'; 
+//const API_BASE_URL = 'you render'; 
 //เวอร์ชัน Local IP (เปิดไว้สำหรับการนำเสนอสดผ่าน Expo)
-const API_BASE_URL = 'http:/10.75.248.236:3000';
+const API_BASE_URL = '*********';
 
 const REMINDER_OPTIONS = [
   { label: 'ไม่แจ้งเตือน', value: null },
