@@ -1,16 +1,26 @@
-# React + Vite
+# ตั้งเวลาและแจ้งเตือนกิจกรรม มก ฉกส
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+นายอนุศิษฏ์ นันสีบุตร  
+6640204951 
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## คลิปวิดีโอสาธิตการใช้งาน
+[link YouTube]https://youtu.be/aBhlaM1fwdo?si=oXjpys0GznkTKCbL
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## โปสเตอร์โครงการ (Project Poster)
+[Project Poster](docs/อนุศิษฏ์_Poster.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## เกี่ยวกับโปรเจกต์
+เป็นงานจัดการกิจกรรมเเละวิชาเรียนส่วนตัวของนิสิตเเละหลังบ้านในการจัดการวิชาเเละประเภทกิจกรรมของผู้ดูเเลระบบ
+
+## โครงสร้างระบบ
+* **Root Directory:** ไฟล์ซอร์สโค้ดหลักของ Mobile App
+* `app/` - ระบบจัดการฝั่งนิสิต(หน้าจอฝั่งmobile)
+* `backend/` - ระบบบริการฝั่ง Server (Node.js / Express)
+* `web-admin/` - ระบบจัดการข้อมูลหลังบ้านสำหรับผู้ดูแลระบบ
+* `docs/` - เอกสารและโปสเตอร์นำเสนอ
