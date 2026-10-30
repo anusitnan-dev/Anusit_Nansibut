@@ -11,7 +11,7 @@
 ---
 
 ## โปสเตอร์โครงการ (Project Poster)
-[Project Poster](docs/อนุศิษฏ์_Poster.png)
+[Project Poster](doc/อนุศิษฏ์_Poster.png)
 
 ---
 
